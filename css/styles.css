@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(112, 170, 194, 0.2);
+}
+h1{
+  color: #66BFBF;
+  text-shadow: 1px 1px 1px #000000;
+}
+h3{
+  color: hsl(186, 15%, 44%);
+  text-shadow: 5px 5px 5px gray;
+}
+hr {
+  border-style: none;
+  border-top: dotted gray 7px;
+  width: 4%;
+}
+
+ /* unvisited link */
+a:link {
+  color: #3E497A;
+}
+
+/* visited link */
+a:visited {
+  color: #395B64;
+}
+
+ /* mouse over link */
+a:hover {
+  color: tomato;
+}
+
+/* selected link */
+a:active {
+  color: #C8F2EF;
+}
+
+    div {
+      color: blue;
+}
+/*------------------------------Class Selectors---------------*/
+.bhobbies {
+      background: url("../image/ski01.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+    .hobbies {
+      color: #F05454;
+    }
+  .hobbie-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
